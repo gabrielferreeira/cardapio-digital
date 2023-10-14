@@ -1,0 +1,69 @@
+main {
+    margin-top: 3rem;
+}
+
+main h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--fonte);
+}
+
+.categorias {
+    margin-top: 1.5rem;
+}
+
+main .btn:focus {
+    background: var(--hover);
+    color: var(--background);
+}
+
+.description {
+    margin-top: 2rem;
+    border-radius: 10px;
+    background: var(--dark3);
+}
+
+.description p {
+    color: var(--fonte);
+}
+
+.description span {
+    color: var(--hover);
+}
+
+.newslatter {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newslatter h3 {
+    color: var(--fonte);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.newslatter p {
+    color: var(--fonte);
+    font-size: 0.8rem;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form #input {
+    width: 100%;
+}
+
+main form .btn {
+    width: 50%;
+    margin-top: 1rem;
+}

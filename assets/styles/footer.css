@@ -1,0 +1,43 @@
+.social {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.social .midias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social .midias .midiasLinks {
+    margin: 0 10px 0 0;
+    background: var(--hover);
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.social .midias .midiasLinks:hover {
+    opacity: 1;
+}
+
+.social .midias .midiasLinks a i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--background);
+}
+
+
+p {
+    text-align: center;
+    color: var(--fonte);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem 0;
+}

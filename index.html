@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cardápio online para seu negócio">
+    <meta name="keywords"
+        content="cardápio, online, negócio, digital, sucos, refrigerantes, morango, limão, fanta, coca, Hamburguers, caseiros, clássicos, gourmet, capirinha, cervejas, corona, budweiser, sobremesas, pudim, copo da felicidade">
+    <meta name="author" content="Gabriel Lopes">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/imagens/logo_cardapio_digital_atualizado.png" type="image/x-icon">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="assets/styles/all.css">
+
+    <title>GL Burguer | Cardápio Online</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <header>
+            <a href="index.html" class="logo"><img src="assets/imagens/logo_cardapio_digital_atualizado.png"
+                    alt="Logo GL Burguer"></a>
+            <i class="fa fa-search buscar" title="Buscar" aria-hidden="true"></i>
+        </header>
+
+        <div class="search">
+            <input onkeyup="filtrar()" id="input" type="search" placeholder="Procurando por algo específico?">
+
+            <ul id="resultado"></ul>
+        </div>
+
+        <main>
+            <h3>Categorias:</h3>
+            <div class="categorias">
+                <button class="all btn">Mostrar Tudo</button>
+                <button class="classicos btn">Hamburguers Clássicos</button>
+                <button class="gourmet btn">Hamburguers Gourmet</button>
+                <button class="drinks btn">Drinks</button>
+                <button class="cervejas btn">Cervejas</button>
+                <button class="bebidas btn">Bebidas</button>
+                <button class="sobremesas btn">Sobremesas</button>
+            </div>
+
+            <div class="produtos"></div>
+
+            <div class="destaques">
+                <h3>Destaques:</h3>
+
+                <div class="boxDestaques">
+                    <div class="pergunta">
+                        <h3>Mais pedidos</h3>
+                        <i class="fa fa-angle-down icone" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="resposta"></div>
+                </div>
+            </div>
+
+            <section class="description">
+                <p><span>Atenção:</span> nosso estabelecimentos não cobra os 10% dos clientes, porém, é opcional.</p>
+            </section>
+
+            <section class="newslatter">
+                <h3>Inscreva-se</h3>
+                <p>Fique por dentro de todas as novidades!</p>
+                <form>
+                    <input id="input" type="email" name="email" placeholder="Digite seu melhor e-mail" required>
+                    <button class="btn" type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="social">
+                <div class="midias">
+                    <div class="midiasLinks">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                    <div class="midiasLinks">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                    <div class="midiasLinks">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                    <div class="midiasLinks">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p><span id="ano"></span> &copy; Desenvolvido por Gabriel Lopes</p>
+        </footer>
+    </div>
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/produtos.js"></script>
+    <script src="assets/js/openDestaque.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/productDestaque.js"></script>
+</body>
+
+</html>

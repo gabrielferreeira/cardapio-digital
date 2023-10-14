@@ -1,0 +1,18 @@
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.glmain h1 {
+    color: var(--fonte);
+    font-weight: 600;
+}
+
+.glmain p {
+    color: var(--fonte);
+    font-weight: 300;
+    margin-bottom: 1rem;
+}

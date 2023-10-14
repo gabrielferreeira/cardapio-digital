@@ -1,0 +1,29 @@
+.conteiner {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 90px;
+    cursor: pointer;
+}
+
+.conteiner header i {
+    font-size: 1.5rem;
+    color: var(--fonte);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.conteiner header i:hover {
+    color: var(--hover);
+}
